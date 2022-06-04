@@ -12,7 +12,7 @@ import java.util.HashMap;
  */
 @Controller
 public class HomeController {
-
+// DISPLAYS THE HOME PAGE
     @GetMapping(value = "")
     public String index(Model model) {
 
